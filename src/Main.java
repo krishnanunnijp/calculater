@@ -24,8 +24,6 @@ public class Main {
                 System.out.println(input1/input2);
                 break;
 
-
-
         }
     }
 }
