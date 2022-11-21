@@ -25,12 +25,18 @@ public class Main {
                     System.out.println(input1 * input2);
                     break;
                 case 4:
-                    System.out.println(input1 / input2);
+
+                    try {
+                        System.out.println(input1 / input2);
+                    }catch (ArithmeticException e) {
+                        System.out.println(e);
+                    }
                     break;
 
 
             }
             System.out.println("do you want to continue click 1 or 0");
+            exi=sc.nextInt();
         }
     }
 }
