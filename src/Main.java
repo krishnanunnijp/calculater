@@ -14,6 +14,9 @@ public class Main {
             case 1:
                 System.out.println(input1+input2);
                 break;
+            case 2:
+                System.out.println(input1-input2);
+                break;
 
 
 
