@@ -10,10 +10,7 @@ public class Main {
         int input= sc.nextInt();
         int input1= sc.nextInt();
         int input2 = sc.nextInt();
-        switch (input){
-            case 1:
-                System.out.println(input1+input2);
-                break;
+
 
 
         }
